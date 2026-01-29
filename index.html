@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Frankfurt Prayer Community</title>
+  <meta name="description" content="Official website of the Frankfurt Prayer Community. Services, prayer meetings, events, and contact." />
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin:0; line-height:1.6; color:#111; }
+    header { padding:24px; border-bottom:1px solid #eee; background:#fafafa; }
+    nav a { margin-right:14px; text-decoration:none; color:#111; font-weight:600; }
+    nav a:hover { text-decoration:underline; }
+    main { max-width: 960px; margin: 0 auto; padding: 24px; }
+    .hero { padding: 22px; border:1px solid #eee; border-radius: 14px; background:white; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 18px; }
+    .card { padding: 16px; border:1px solid #eee; border-radius: 14px; background:white; }
+    footer { padding: 24px; border-top:1px solid #eee; color:#666; background:#fafafa; }
+    .btn { display:inline-block; margin-top:10px; padding:10px 14px; border:1px solid #ddd; border-radius: 12px; text-decoration:none; color:#111; font-weight:600;}
+    .btn:hover { background:#f2f2f2; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="margin:0;">Frankfurt Prayer Community</h1>
+    <p style="margin:6px 0 0; color:#444;">Pray together. Grow together. Serve together.</p>
+    <nav style="margin-top:14px;">
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2 style="margin-top:0;">Welcome</h2>
+      <p>
+        We are a community in Frankfurt gathering for worship, prayer, and fellowship.
+        You are warmly invited to join us.
+      </p>
+      <a class="btn" href="events.html">View Events</a>
+      <a class="btn" href="contact.html">Get in Touch</a>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h3 style="margin-top:0;">Sunday Service</h3>
+        <p><strong>Sunday</strong> — Time & location (update later)</p>
+        <p>Everyone is welcome.</p>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-top:0;">Prayer Meeting</h3>
+        <p><strong>Weekday</strong> — Time & location (update later)</p>
+        <p>We pray for Frankfurt and beyond.</p>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-top:0;">Contact</h3>
+        <p>Email: <strong>info@frankfurtsgebetsgemeinde.de</strong></p>
+        <p>Phone/WhatsApp: (optional)</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="y"></span> Frankfurt Prayer Community ·
+    <a href="imprint.html">Imprint</a> ·
+    <a href="privacy.html">Privacy</a>
+    <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
