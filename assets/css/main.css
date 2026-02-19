@@ -3911,4 +3911,19 @@ input, select, textarea {
 				}
 			}
 
+
+			.custom-icons {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.custom-icon {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+}
+
 		}
+
